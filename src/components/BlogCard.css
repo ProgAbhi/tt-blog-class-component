@@ -1,0 +1,33 @@
+.blog-card {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.blog-card:hover {
+  transform: scale(1.01);
+}
+
+.blog-image {
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.blog-content {
+  flex: 1;
+}
+
+.blog-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.blog-description {
+  font-size: 1rem;
+  color: #555;
+}
